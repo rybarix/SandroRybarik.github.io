@@ -6,10 +6,12 @@
 
 .post img {
         display: block;
-        border:1px solid #021a40;
+        border:1px solid #f1f1f1;
         vertical-align: top;
         margin-left: auto;
         margin-right: auto;
+        box-shadow: inset 0 0 0 1px var(--color-toast-warning-border),var(--color-toast-shadow);
+        border-radius: 8px;
 }
 
 .post figcaption {
@@ -59,4 +61,24 @@
 }
 
 .codecell table { width: auto; }
+
+.site-header {
+        border-top-color: #7146FF
+}
+
+.social-media-list svg {
+        padding: 0;
+}
+
+.footer-col-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0;
+}
+.footer-col {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+}
 

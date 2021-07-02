@@ -1,4 +1,9 @@
 # About
 
-This is where you put the contents of your *About* page. Like all your pages, it's in [Markdown](https://guides.github.com/features/mastering-markdown/) format.
+Hello, my name is Sandro I'm writing mostly about stuff down there.
 
+Topics I'm interested in:
+
+- ML 
+- Webdev, mostly JS/CSS
+- performance and native apps
