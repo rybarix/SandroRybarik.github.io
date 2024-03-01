@@ -5,88 +5,110 @@
 @import "{{ site.theme }}";
 
 .post img {
-        display: block;
-        border:1px solid #f1f1f1;
-        vertical-align: top;
-        margin-left: auto;
-        margin-right: auto;
-        box-shadow: inset 0 0 0 1px var(--color-toast-warning-border),var(--color-toast-shadow);
-        border-radius: 8px;
+    display: block;
+    border: 1px solid #f1f1f1;
+    vertical-align: top;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: inset 0 0 0 1px var(--color-toast-warning-border), var(--color-toast-shadow);
+    border-radius: 8px;
 }
 
 .post figcaption {
-  text-align: center;
-  font-size: .8rem;
-  font-style: italic;
-  color: light-grey;
+    text-align: center;
+    font-size: .8rem;
+    font-style: italic;
+    color: light-grey;
 }
 
-.language-python { border-left: 1px solid lightcoral; }
-
-.language-python + .language-plaintext {
-        border-left: 1px solid grey;
-        margin-left: 1rem !important;
+.language-python {
+    border-left: 1px solid lightcoral;
 }
-.language-python + .language-plaintext code { background-color: white !important; }
-.language-python + .language-plaintext pre  { background-color: white !important; }
+
+.language-python+.language-plaintext {
+    border-left: 1px solid grey;
+    margin-left: 1rem !important;
+}
+
+.language-python+.language-plaintext code {
+    background-color: white !important;
+}
+
+.language-python+.language-plaintext pre {
+    background-color: white !important;
+}
 
 // for Jupyter Notebook HTML Code Cells from https://www.fast.ai/public/css/hyde.css
 
-.input_area pre, .input_area div {
-        margin-bottom:0.1rem !important;
-        margin-top:0.1rem !important;
-        padding-bottom:0 !important;
-        padding-top:0 !important;
-}
-.output_area pre, .output_area div {
-        margin-bottom:0.1rem !important;
-        margin-top:0.1rem !important;
-        padding-bottom:0 !important;
-        padding-top:0 !important;
-        background-color: white !important;
-}
-.input_area pre {
-        border-left: 1px solid lightcoral;
-}
-.output_area pre {
-        border-left: 1px solid grey;
-        margin-left: 1rem !important;
-}
-.codecell {
-        border-right: 2px solid lightgrey;
-        margin-bottom:1rem !important;
-        margin-top:1rem !important;
-        padding-bottom:0 !important;
-        padding-top:0 !important;
+.input_area pre,
+.input_area div {
+    margin-bottom: 0.1rem !important;
+    margin-top: 0.1rem !important;
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
 }
 
-.codecell table { width: auto; }
+.output_area pre,
+.output_area div {
+    margin-bottom: 0.1rem !important;
+    margin-top: 0.1rem !important;
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
+    background-color: white !important;
+}
+
+.input_area pre {
+    border-left: 1px solid lightcoral;
+}
+
+.output_area pre {
+    border-left: 1px solid grey;
+    margin-left: 1rem !important;
+}
+
+.codecell {
+    border-right: 2px solid lightgrey;
+    margin-bottom: 1rem !important;
+    margin-top: 1rem !important;
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
+    background: red;
+}
+
+.codecell table {
+    width: auto;
+}
 
 .site-header {
-        border-top-color: #7146FF
+    border-top-color: #7146FF
 }
 
 .social-media-list svg {
-        padding: 0;
+    padding: 0;
 }
 
 .footer-col-wrapper {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
 }
+
 .footer-col {
-        width: 100%;
-        margin: 0;
-        padding: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 img.about-profile {
-        width: 128px;
-        background-color: transparent;
-        border: none;
-        border-radius: 0;
-        box-shadow: none;
-        margin: unset
+    width: 128px;
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    margin: unset
+}
+
+pre {
+    tab-size: 2;
 }
