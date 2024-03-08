@@ -93,7 +93,7 @@ class Fetcher {
 ```
 
 ```js
-/** @param {{ location: string|undefined }} jobPost */
+/** @param {% raw %}{{ location: string|undefined }}{% endraw %} jobPost */
 function createJobPost(jobPost) {
 	jobPost.location ??= 'remote'
 	return jobPost
