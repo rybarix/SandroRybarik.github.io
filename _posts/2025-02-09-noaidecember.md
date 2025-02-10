@@ -49,3 +49,8 @@ I don't have any solutions for this right now. I just don't rush it and allow my
 
 
 I'm ending with a positive look on the future. We adapt quickly to new technology, and we appreciate it only at the beginning. You'll appreciate every piece of technology more if you stop using it for a while. I encourage you to try No AI December and share your thoughts.
+
+
+---
+
+[Hacker news discussion](https://news.ycombinator.com/item?id=42993490)
