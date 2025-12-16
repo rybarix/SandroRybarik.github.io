@@ -1,4 +1,4 @@
-# Going fast yet standing still
+# Going fast, yet standing still
 
 Cancelling all subscriptions of AI tools felt good.
 
